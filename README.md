@@ -75,7 +75,7 @@ Instead of relying on a physics engine, the game calculates everything using raw
 
 When you reach a high score, normal enemies stop and 1 of 5 bosses will appear. Each has a unique math algorithm for movement and attacks:
 
-      | FirstName     | LastName      | City   
+| FirstName     | LastName      | City   
 | ------------- | ------------- | --------    |
 | `John`        | Test1         | `NewYork`   |
 | `Bob`         | Test2         | `Toronto`   |
