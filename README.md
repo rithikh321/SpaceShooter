@@ -2,7 +2,7 @@
 
 Space Shooter is a fast 2D arcade game for Android. 
 
-Built using JavaScript and the HTML5 Canvas API, running inside an Android WebView. Deployed using Android Studio. There are no heavy game engines used like Unity. This makes the game incredibly fast, responsive, and lightweight.
+Built using JavaScript and the HTML5 Canvas API, running inside an Android WebView. Deployed using Android Studio. There are no heavy game engines used like Unity or Unreal Engine. This makes the game incredibly fast, responsive, and lightweight.
 
 ---
 
@@ -75,7 +75,11 @@ Instead of relying on a physics engine, the game calculates everything using raw
 
 When you reach a high score, normal enemies stop and 1 of 5 bosses will appear. Each has a unique math algorithm for movement and attacks:
 
-| FirstName     | LastName      | City   
-| ------------- | ------------- | --------    |
-| `John`        | Test1         | `NewYork`   |
-| `Bob`         | Test2         | `Toronto`   |
+| Boss Type   | Color     | Movement Pattern     | Attack Mechanism                               |
+| ----------- | --------- | -------------------- | ---------------------------------------------- |
+| `TITAN`     | Red       | Slow                 | Fires massive rectangular missiles             |
+| `WIDOW`     | Green     | Zig-zag              | Shoots high-speed tracking needles             |
+| `CORE`      | Cyan      | Stationary           | Blasts rings of plasma in full 360 degrees     |
+| `PHANTOM`   | Purple    | Horizontal           | Fires wide, horizontal walls of lasers         |
+| `LANCER`    | Yellow    | Diving               | Fires thick, deadly vertical laser beams       |
+
