@@ -75,11 +75,11 @@ Instead of relying on a physics engine, the game calculates everything using raw
 
 When you reach a high score, normal enemies stop and 1 of 5 bosses will appear. Each has a unique math algorithm for movement and attacks:
 
-| Boss Type   | Color     | Movement Pattern     | Attack Mechanism                               |
-| ----------- | --------- | -------------------- | ---------------------------------------------- |
-| `TITAN`     | Red       | Slow                 | Fires massive rectangular missiles             |
-| `WIDOW`     | Green     | Zig-zag              | Shoots high-speed tracking needles             |
-| `CORE`      | Cyan      | Stationary           | Blasts rings of plasma in full 360 degrees     |
-| `PHANTOM`   | Purple    | Horizontal           | Fires wide, horizontal walls of lasers         |
-| `LANCER`    | Yellow    | Diving               | Fires thick, deadly vertical laser beams       |
+| Boss Type   | Color        | Movement Pattern     | Attack Mechanism                                    |
+| ----------- | ------------ | -------------------- | --------------------------------------------------- |
+| `TITAN`     | Red          | Slow                 | Fires massive rectangular missiles                  |
+| `WIDOW`     | Green        | Zig-zag              | Shoots high-speed tracking needles                  |
+| `CORE`      | Cyan         | Stationary           | Blasts rings of plasma in full 360 degrees          |
+| `PHANTOM`   | Purple       | Horizontal           | Fires wide, horizontal walls of lasers              |
+| `LANCER`    | Yellow       | Diving               | Fires thick, deadly vertical laser beams            |
 
