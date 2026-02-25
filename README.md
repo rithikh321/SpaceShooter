@@ -75,28 +75,7 @@ Instead of relying on a physics engine, the game calculates everything using raw
 
 When you reach a high score, normal enemies stop and 1 of 5 bosses will appear. Each has a unique math algorithm for movement and attacks:
 
-      Titan: {
-        color: "Red",
-        movement: "Slow and heavy",
-        attack: "Fires massive rectangular missiles"
-      },
-      Widow: {
-        color: "Green",
-        movement: "Fast zig-zag patterns",
-        attack: "Shoots high-speed tracking needles"
-      },
-      Core: {
-        color: "Cyan",
-        movement: "Stationary in center",
-        attack: "Blasts rings of plasma in full 360 degrees"
-      },
-      Phantom: {
-        color: "Purple",
-        movement: "Sweeps horizontally across the screen",
-        attack: "Fires wide, horizontal walls of lasers"
-      },
-      Lancer: {
-        color: "Yellow",
-        movement: "Drops very low toward the player",
-        attack: "Fires thick, deadly vertical laser beams"
-      }
+      | FirstName     | LastName      | City   
+| ------------- | ------------- | --------    |
+| `John`        | Test1         | `NewYork`   |
+| `Bob`         | Test2         | `Toronto`   |
